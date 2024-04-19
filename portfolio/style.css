@@ -50,6 +50,10 @@ nav {
   font-size: 35px;
 }
 
+.intro-color-emp {
+  color: #5068A8;
+}
+
 #position-info {
   font-weight: 500;
   font-size:18px; 
@@ -61,3 +65,4 @@ nav {
   font-weight: bold;
   color: #22223b;
 }
+
