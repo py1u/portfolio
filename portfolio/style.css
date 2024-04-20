@@ -13,7 +13,7 @@ body {
   z-index: 0;
   font-family: "Sen", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style:normal;
   color: #22223b;
   background-color: transparent;
@@ -28,12 +28,12 @@ nav {
   align-items: center;
   height: 60px;
   background-color: none;
-  font-weight: 600;
-  border: solid;
+  /* font-weight: 600; */
+  border: none;
 }
 
 .nav-links {
-  border: solid;
+  border: none;
   display: flex;
   list-style: none;
   margin-right: 5%;
@@ -89,3 +89,10 @@ nav {
   color: #22223b;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  position: relative;
+  align-items: center;
+}
