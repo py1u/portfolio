@@ -1,21 +1,25 @@
-#blurred-background {
+#gradient-canvas {
+  width:100%;
+  height:100%;
+  --gradient-color-1: #c3e4ff; 
+  --gradient-color-2: #6ec3f4; 
+  --gradient-color-3: #eae2ff;  
+  --gradient-color-4: #b9beff;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle at 50% 50%, rgba(76, 0, 255, 1), rgba(76, 0, 255, 0));
-  filter: blur(10px);
-  z-index: -1;
 }
+   
 
 body {
+  z-index: 0;
   font-family: "Sen", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style:normal;
   color: #22223b;
-  background-color:#F8F8FF;
+  background-color: transparent;
+  /* padding: 0%;
+  border: solid; */
+  
   }
 
 nav {
@@ -25,6 +29,7 @@ nav {
   height: 60px;
   background-color: none;
   font-weight: 600;
+  border: solid;
 }
 
 .nav-links {
@@ -47,18 +52,25 @@ nav {
 }
 
 .intro {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 600;
   display: flex;
   flex-direction: column;
   border: solid;
-  justify-content: center;
   align-items:start;
+  max-width: fit-content;
+  margin-left: 20%;
+  margin-top: 10%;
   
 }
 
+#greeting {
+  border: none;
+  
+}
 .main-info {
-  font-size: 35px;
+  border: none;
+  font-size: 40px;
 }
 
 .intro-color-emp {
@@ -68,7 +80,7 @@ nav {
 #position-info {
   font-weight: 500;
   font-size:18px; 
-  margin-top:1%; 
+  margin-top:3%; 
   color: #778899;
 }
 
