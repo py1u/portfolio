@@ -29,11 +29,11 @@ nav {
   height: 60px;
   background-color: none;
   /* font-weight: 600; */
-  border: solid;
+  border: none;
 }
 
 .nav-links {
-  border: solid;
+  border: none;
   display: flex;
   list-style: none;
   margin-right: 5%;
@@ -92,7 +92,7 @@ nav {
 .footer {
   display: flex;
   flex-direction: column;
-  border: solid;
+  border: none;
   position: relative;
   align-items: center;
 }
