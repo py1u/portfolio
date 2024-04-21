@@ -10,15 +10,17 @@
    
 
 body {
+  display: flex;
+  flex-direction: column;
+	min-height: 100vh;
   z-index: 0;
   font-family: "Sen", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style:normal;
   color: #22223b;
-  background-color: transparent;
-  /* padding: 0%;
-  border: solid; */
+  background: linear-gradient(45deg, #dfe9f3 0%, #F0F8FF 100%);
+  
   
   }
 
@@ -28,8 +30,7 @@ nav {
   align-items: center;
   height: 60px;
   background-color: none;
-  /* font-weight: 600; */
-  border: none;
+  border: solid;
 }
 
 .nav-links {
@@ -54,12 +55,8 @@ nav {
 .intro {
   font-size: 55px;
   font-weight: 600;
-  display: flex;
-  flex-direction: column;
-  border: none;
-  align-items:start;
-  max-width: fit-content;
-  margin-left: 20%;
+  border: solid;
+  margin: 20%;
   margin-top: 10%;
   
 }
@@ -90,9 +87,7 @@ nav {
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
-  border: none;
-  position: relative;
-  align-items: center;
+  background-color: #F0F8FF;
+  text-align: center;
+ 
 }
