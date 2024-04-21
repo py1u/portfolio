@@ -21,8 +21,11 @@ body {
   color: #22223b;
   background-color: #FAF9F9;
   
-  
   }
+
+#music {
+  display: none;
+}
 
 nav {
   display: flex;
