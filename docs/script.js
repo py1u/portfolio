@@ -3,6 +3,8 @@
 // gradient.initGradient("#gradient-canvas");
 
 
+// alert("testing script.js")
+
 const links = document.querySelectorAll(".nav-links");
 
 links.forEach((link) => {
@@ -19,4 +21,6 @@ links.forEach((link) => {
   });
 });
 
-// alert("testing script.js")
+const audio = document.getElementById("music");
+audio.volume = 0.01; // set volume to 50%
+
