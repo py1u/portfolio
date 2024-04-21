@@ -19,7 +19,7 @@ body {
   font-weight: 500;
   font-style:normal;
   color: #22223b;
-  background: linear-gradient(45deg, #dfe9f3 0%, #F0F8FF 100%);
+  background-color: #FAF9F9;
   
   
   }
@@ -65,7 +65,7 @@ nav {
   border: none;
   
 }
-.main-info {
+.info {
   border: none;
   font-size: 40px;
 }
@@ -86,8 +86,15 @@ nav {
   color: #22223b;
 }
 
+.main{
+  border:solid;
+
+}
 .footer {
-  background-color: #F0F8FF;
+  max-width: 100%;
+  border: solid;
+  background-color: none;
+  color:#22223b;
   text-align: center;
  
 }
