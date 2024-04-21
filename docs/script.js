@@ -3,7 +3,7 @@
 // gradient.initGradient("#gradient-canvas");
 
 
-const links = document.querySelectorAll(".nav-hover");
+const links = document.querySelectorAll(".nav-links");
 
 links.forEach((link) => {
   link.addEventListener("mouseover", () => {
