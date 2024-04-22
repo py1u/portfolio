@@ -22,12 +22,12 @@ links.forEach((link) => {
 });
 
 const audio = document.getElementById("music");
-audio.volume = 0.1; // set volume to 50%
+audio.volume = 0.0; // set volume to 50%
 
-window.addEventListener("visibilitychange", () => {
-    if (document.visibilityState === "hidden") {
-      audio.pause();
-    } else {
-      audio.play();
-    }
-  });
+// window.addEventListener("visibilitychange", () => {
+//     if (document.visibilityState === "hidden") {
+//       audio.pause();
+//     } else {
+//       audio.play();
+//     }
+//   });
