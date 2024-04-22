@@ -86,15 +86,37 @@ nav {
 }
 
 .knot{
-  /* border:solid; */
+  animation: swing 2s infinite;
   height:55px; 
   width: 55px;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.knot path {
+  transform-origin: center top;
 }
 
 .intro {
   font-size: 55px;
   font-weight: 600;
-  margin: 20%;
+  margin: 10%;
   margin-top: 10%;
   
 }
@@ -130,8 +152,8 @@ nav {
 }
 
 .footer {
-  min-height: 150px;
-  height: 100%;
+  height: 150px;
+  bottom: 0%;
   border: solid;
   background-color: none;
   color:#22223b;
