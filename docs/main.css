@@ -152,16 +152,18 @@ nav {
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 150px;
   bottom: 0%;
   border: solid;
   background-color: none;
   color:#22223b;
-  text-align: center; 
+  
 }
 
 .copyright{
-  
   max-width:fit-content;
   border: solid;
 }
