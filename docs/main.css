@@ -151,6 +151,12 @@ nav {
   margin-bottom: 40px;
 }
 
+.about-content{
+  border: solid;
+  margin:20%;
+  min-height: 8in;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
