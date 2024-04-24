@@ -157,6 +157,14 @@ nav {
   min-height: 8in;
 }
 
+.work-content{
+  border: solid;
+  margin:20%;
+  min-height: 8in;
+}
+
+
+
 .footer {
   display: flex;
   flex-direction: column;
