@@ -163,7 +163,11 @@ nav {
   min-height: 8in;
 }
 
-
+.dev-content{
+  border: solid;
+  margin:20%;
+  min-height: 8in;
+}
 
 .footer {
   display: flex;
