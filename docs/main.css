@@ -157,6 +157,10 @@ nav {
   min-height: 8in;
 }
 
+#about-me{
+  border: solid;
+  font-size: 30px;
+}
 .work-content{
   border: solid;
   margin:20%;
