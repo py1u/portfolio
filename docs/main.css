@@ -117,7 +117,7 @@ nav {
   font-size: 55px;
   font-weight: 600;
   margin: 10%;
-  margin-top: 10%;
+  margin-top: 15%;
   
 }
 
@@ -126,7 +126,7 @@ nav {
   
 }
 .info {
-  border: none;
+  border: solid;
   font-size: 40px;
 }
 
@@ -148,12 +148,19 @@ nav {
 
 .main-content{
   border: solid;
-  margin-bottom: 40px;
+  color:#22223b;
+  /* display: flex;
+  flex-direction: column; */
+  margin: 15% 20% 15% 20%;
+  min-height: 8in;
 }
 
 .about-content{
   border: solid;
-  margin:20%;
+  color:#22223b;
+  /* display: flex;
+  flex-direction: column; */
+  margin: 15% 20% 15% 20%;
   min-height: 8in;
 }
 
@@ -161,15 +168,27 @@ nav {
   border: solid;
   font-size: 40px;
 }
+
+#about-role{
+  font-size: 25px;
+  color:#778899
+}
+
 .work-content{
   border: solid;
-  margin:20%;
+  color:#22223b;
+  /* display: flex;
+  flex-direction: column; */
+  margin: 15% 20% 15% 20%;
   min-height: 8in;
 }
 
 .dev-content{
   border: solid;
-  margin:20%;
+  color:#22223b;
+  /* display: flex;
+  flex-direction: column; */
+  margin: 15% 20% 15% 20%;
   min-height: 8in;
 }
 
