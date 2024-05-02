@@ -168,7 +168,7 @@ nav {
 .about-content{
   border: solid;
   color:#22223b;
-  margin: 15% 20% 20% 15%;
+  margin: 15% 21% 15% 21%;
   min-height: 8in;
 }
 
@@ -184,13 +184,17 @@ nav {
 }
 
 .about-container{
+  border: solid;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #about-story{
   border:solid;
-  font-size: 15px;
+  max-width: 450px;
+  font-size: 18px;
+  font-weight: 400;
 }
 .profile-card{
   border:solid;
