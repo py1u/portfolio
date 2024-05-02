@@ -31,6 +31,16 @@ body {
   body::-webkit-scrollbar{
     display: none;
   }
+
+  
+  @keyframes unblur {
+    to {
+      filter: blur(0px); /* final unblurred state */
+    }
+  }
+
+
+
 #music {
   display: none;
 }
@@ -173,6 +183,11 @@ nav {
   font-size: 25px;
   color:#778899
 }
+
+#about-story{
+  font-size: 15px;
+}
+
 
 .work-content{
   border: solid;
