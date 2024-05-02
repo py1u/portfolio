@@ -184,10 +184,21 @@ nav {
   color:#778899
 }
 
+#about-container{
+  border:solid;
+  display:flex;
+  flex-direction: row;
+}
 #about-story{
+  border:solid;
   font-size: 15px;
 }
-
+#about-photo{
+  border:solid;
+  max-width: 200px;
+  max-height:200px;
+  object-fit: contain;
+}
 
 .work-content{
   border: solid;
