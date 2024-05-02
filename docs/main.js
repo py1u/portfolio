@@ -4,7 +4,7 @@
 
 
 // alert("testing script.js")
-
+//
 const links = document.querySelectorAll(".nav-option");
 
 links.forEach((link) => {
@@ -21,9 +21,15 @@ links.forEach((link) => {
   });
 });
 
-const audio = document.getElementById("music");
-audio.volume = 0.03; // set volume to 50%
+// const audio = document.getElementById("music");
+// audio.volume = 0.03; // set volume to 50%
 
+function loadMusic() {
+  var audio = new Audio('assets/smartr.mp3');
+  audio.autoplay = true;
+  audio.loop = true;
+  audio.volume = 0.03;
+}
 // window.addEventListener("visibilitychange", () => {
 //     if (document.visibilityState === "hidden") {
 //       audio.pause();
@@ -31,3 +37,4 @@ audio.volume = 0.03; // set volume to 50%
 //       audio.play();
 //     }
 //   });
+
