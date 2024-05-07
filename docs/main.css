@@ -157,7 +157,7 @@ nav {
 }
 
 .main-content{
-  border: solid;
+  /* border: solid; */
   color:#22223b;
   /* display: flex;
   flex-direction: column; */
@@ -166,14 +166,14 @@ nav {
 }
 
 .about-content{
-  border: solid;
+  /* border: solid; */
   color:#22223b;
   margin: 15% 21% 15% 21%;
   min-height: 8in;
 }
 
 #about-me{
-  border: solid;
+  /* border: solid; */
   font-size: 40px;
 }
 
@@ -184,7 +184,7 @@ nav {
 }
 
 .about-container{
-  border: solid;
+  /* border: solid; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -198,8 +198,9 @@ nav {
 }
 .profile-card{
   /* border:solid; */
-  width: 300px;
-  height: 300px;
+  border-radius: 1%;
+  width: 325px;
+  height: 325px;
   max-width: 100%;
   max-height:100%;
   object-fit: contain;
