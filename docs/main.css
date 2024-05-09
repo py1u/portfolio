@@ -196,6 +196,17 @@ nav {
   font-size: 16px;
   font-weight: 400;
 }
+
+#status_check{
+  /* border: solid; */
+  font-weight: 400;
+}
+
+#online{
+  color:lightgreen;
+  
+}
+
 .profile-card{
   /* border:solid; */
   border-radius: 1%;
