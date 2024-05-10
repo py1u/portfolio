@@ -157,23 +157,50 @@ nav {
 }
 
 .main-content{
-  display: flex;
-  border: solid;
-  color: #101010;
-  justify-content: center;
+  color: #FAF9F9;
+  background-color: #8b92b5;
   margin: 15% 0% 15% 0%;
   min-height: 8in;
+  font-weight: 400; 
+  display: show;
 }
 
+#container-education{
+  margin: 0% 35% 0% 35%;
+  /* border:solid; */
+
+}
 #education-title{
-  padding-top: 5%;
   font-size: 30px;
+  
 }
 
-.about-content{
+#school {
+  font-size: 20px;
+  
+}
+
+#major {
+  font-size: 20px;
+    
+}
+
+#relevent-courses {
+  border:solid;
+  font-size: larger;
+  padding-bottom: 5%;
+  
+}
+
+#rc-title {
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+
+.about-content {
   /* border: solid; */
   color:#22223b;
-  margin: 15% 21% 15% 21%;
+  margin: 20% 21% 20% 21%;
   min-height: 8in;
 }
 
@@ -255,13 +282,13 @@ nav {
   border-top: none;
   background-color: none;
   color:#101010;
-  background-color: #e9f4ff;
+  background-color: #dde2ef;
   font-weight: 400;
   
 }
 
 .footer_links{
-  gap: 5px;
+  gap: 10px;
   padding-top: 2%;
   display: flex;
   flex-direction: row;
