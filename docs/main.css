@@ -136,7 +136,7 @@ nav {
   
 }
 .info {
-  border: solid;
+  /* border: solid; */
   font-size: 40px;
 }
 
@@ -224,7 +224,7 @@ nav {
   
 }
 .work-content{
-  border: solid;
+  /* border: solid; */
   color:#22223b;
   /* display: flex;
   flex-direction: column; */
@@ -233,7 +233,7 @@ nav {
 }
 
 .dev-content{
-  border: solid;
+  /* border: solid; */
   color:#22223b;
   /* display: flex;
   flex-direction: column; */
