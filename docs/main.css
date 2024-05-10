@@ -247,7 +247,7 @@ nav {
   align-items: center;
   height: 150px;
   bottom: 0%;
-  border: solid;
+  /* border: solid; */
   background-color: none;
   color:#22223b;
   
@@ -255,5 +255,5 @@ nav {
 
 .copyright{
   max-width:fit-content;
-  border: solid;
+  /* border: solid; */
 }
