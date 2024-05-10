@@ -263,6 +263,21 @@ nav {
   
 }
 
+#email-link{
+  text-decoration: none;
+  color:#22223b;
+}
+
+#linkedin-link{
+  text-decoration: none;
+  color:#22223b;
+}
+
+#github-link{
+  text-decoration: none;
+  color:#22223b;
+}
+
 .copyright{
   
   max-width:fit-content;
