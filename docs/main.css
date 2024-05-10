@@ -157,12 +157,17 @@ nav {
 }
 
 .main-content{
-  /* border: solid; */
-  color:#22223b;
-  /* display: flex;
-  flex-direction: column; */
-  margin: 15% 20% 15% 20%;
+  display: flex;
+  border: solid;
+  color: #101010;
+  justify-content: center;
+  margin: 15% 0% 15% 0%;
   min-height: 8in;
+}
+
+#education-title{
+  padding-top: 5%;
+  font-size: 30px;
 }
 
 .about-content{
