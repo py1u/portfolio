@@ -156,18 +156,17 @@ nav {
   color: #22223b;
 }
 
-.main-content{
+main{
   color: #FAF9F9;
   background-color: #8b92b5;
   margin: 15% 0% 15% 0%;
   min-height: 8in;
   font-weight: 400; 
-  display: show;
 }
 
 #container-education{
-  margin: 0% 35% 0% 35%;
-  /* border:solid; */
+  margin: 0% 30% 0% 30%;
+  border:solid;
 
 }
 #education-title{
