@@ -198,6 +198,7 @@ main{
 
 .about-content {
   /* border: solid; */
+  background-color: #FAF9F9;
   color:#22223b;
   margin: 20% 21% 20% 21%;
   min-height: 8in;
@@ -238,6 +239,13 @@ main{
   
 }
 
+.card-wall{
+  display: flex;
+  flex-direction: row;
+
+  border:solid;
+}
+
 .profile-card{
   /* border:solid; */
   border-radius: 1%;
@@ -257,6 +265,7 @@ main{
 .work-content{
   /* border: solid; */
   color:#22223b;
+  background-color: #FAF9F9;
   /* display: flex;
   flex-direction: column; */
   margin: 15% 20% 15% 20%;
@@ -266,6 +275,7 @@ main{
 .dev-content{
   /* border: solid; */
   color:#22223b;
+  background-color: #FAF9F9;
   /* display: flex;
   flex-direction: column; */
   margin: 15% 20% 15% 20%;
