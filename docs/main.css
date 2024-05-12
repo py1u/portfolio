@@ -156,21 +156,25 @@ nav {
   color: #22223b;
 }
 
-.main-content{
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   color: #FAF9F9;
   background-color: #8b92b5;
   margin: 15% 0% 15% 0%;
   min-height: 8in;
   font-weight: 400; 
-  display: show;
 }
 
 #container-education{
-  margin: 0% 35% 0% 35%;
-  /* border:solid; */
+
+  margin: 0% 30% 0% 30%;
+  border:solid;
 
 }
 #education-title{
+  
   font-size: 30px;
   
 }
@@ -186,19 +190,13 @@ nav {
 }
 
 #relevent-courses {
-  border:solid;
-  font-size: larger;
+  /* border:solid; */
   padding-bottom: 5%;
-  
-}
-
-#rc-title {
-  padding-top: 5%;
-  padding-bottom:5%;
 }
 
 .about-content {
   /* border: solid; */
+  background-color: #FAF9F9;
   color:#22223b;
   margin: 20% 21% 20% 21%;
   min-height: 8in;
@@ -239,6 +237,12 @@ nav {
   
 }
 
+.card-wall{
+  display: flex;
+  flex-direction: row;
+  /* border:solid; */
+}
+
 .profile-card{
   /* border:solid; */
   border-radius: 1%;
@@ -258,6 +262,7 @@ nav {
 .work-content{
   /* border: solid; */
   color:#22223b;
+  background-color: #FAF9F9;
   /* display: flex;
   flex-direction: column; */
   margin: 15% 20% 15% 20%;
@@ -267,6 +272,7 @@ nav {
 .dev-content{
   /* border: solid; */
   color:#22223b;
+  background-color: #FAF9F9;
   /* display: flex;
   flex-direction: column; */
   margin: 15% 20% 15% 20%;
