@@ -157,6 +157,9 @@ nav {
 }
 
 main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   color: #FAF9F9;
   background-color: #8b92b5;
   margin: 15% 0% 15% 0%;
@@ -165,11 +168,13 @@ main{
 }
 
 #container-education{
+
   margin: 0% 30% 0% 30%;
   border:solid;
 
 }
 #education-title{
+  
   font-size: 30px;
   
 }
@@ -185,15 +190,8 @@ main{
 }
 
 #relevent-courses {
-  border:solid;
-  font-size: larger;
+  /* border:solid; */
   padding-bottom: 5%;
-  
-}
-
-#rc-title {
-  padding-top: 5%;
-  padding-bottom:5%;
 }
 
 .about-content {
@@ -242,8 +240,7 @@ main{
 .card-wall{
   display: flex;
   flex-direction: row;
-
-  border:solid;
+  /* border:solid; */
 }
 
 .profile-card{
