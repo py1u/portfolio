@@ -38,3 +38,10 @@ function loadMusic() {
 //     }
 //   });
 
+anime({
+  targets: '.intro-color-emp',
+  translateX: 250,
+  rotate: '1turn',
+  backgroundColor: '#FFF',
+  duration: 800
+});
