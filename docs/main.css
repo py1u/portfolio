@@ -114,11 +114,17 @@ nav {
   transform-origin: center top;
 }
 
+/* header {
+  border: solid;
+  background-color: #DEE2EF;
+} */
+
 .intro {
+  border: solid;
   font-size: 55px;
   font-weight: 600;
   margin: 10%;
-  margin-top: 15%;
+  padding-top: 1%;
   
 }
 
@@ -138,7 +144,7 @@ nav {
 #position-info {
   font-weight: 500;
   font-size:18px; 
-  margin-top:3%; 
+  padding-top:3%; 
   color: #778899;
 }
 
@@ -150,9 +156,10 @@ nav {
 main{
   color: #22223B;
   background-color: #DEE2EF;
-  margin: 15% 0% 15% 0%;
-  min-height: 8in;
+  padding: 5% 0% 5% 0%;
+  min-height: 6in;
   font-weight: 400; 
+  /* border: solid; */
 }
 
 #container-education{
@@ -167,7 +174,7 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 4%;
+  /* padding-top: 4% 0% 4% 0%; */
   /* border: solid; */
   font-size: 40px;
   font-weight: 400; 
@@ -184,9 +191,12 @@ main{
   font-size: 25px;
 }
 
+#gpa {
+  font-size: 15px;
+}
 .relevent-courses {
  border:none;
- padding-left: 10%;
+ padding-left: 15%;
 }
 
 #rc-title {
@@ -201,7 +211,9 @@ main{
  #listing li{
   list-style: circle;
  }
-
+.journey{
+  border: solid;
+}
 
 .about-content {
   /* border: solid; */
