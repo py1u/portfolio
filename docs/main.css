@@ -114,10 +114,10 @@ nav {
   transform-origin: center top;
 }
 
-/* header {
-  border: solid;
-  background-color: #DEE2EF;
-} */
+header {
+  /* border: solid; */
+  padding: 6% 0% 10% 0%;
+}
 
 .intro {
   border: solid;
@@ -161,6 +161,7 @@ main{
   font-weight: 400; 
   /* border: solid; */
 }
+
 
 #container-education{
   display: flex;
@@ -212,20 +213,23 @@ main{
   list-style: circle;
  }
 .journey{
-  border: solid;
+  /* border: solid; */
+  padding: 0% 0% 15% 0% ;
+  font-size: 25px;
 }
 
 .about-content {
-  /* border: solid; */
+  border: none;
   background-color: #FAF9F9;
   color:#22223b;
-  margin: 20% 21% 20% 21%;
+  margin: 5% 10% 5% 10%;
   min-height: 8in;
 }
 
 #about-me{
   /* border: solid; */
   font-size: 40px;
+  
 }
 
 #about-role{
@@ -238,18 +242,24 @@ main{
   /* border: solid; */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10%;
+
+  
+}
+
+#card-container {
+  border: none;
 }
 
 #about-story{
-  /* border:solid; */
   max-width: 450px;
   font-size: 16px;
   font-weight: 400;
 }
 
 #status_check{
-  /* border: solid; */
+
   font-weight: 400;
 }
 
@@ -261,7 +271,7 @@ main{
 .card-wall{
   display: flex;
   flex-direction: row;
-  /* border:solid; */
+  
 }
 
 .profile-card{
@@ -276,7 +286,7 @@ main{
 
 #pl{
   /* border:solid; */
-  margin-left: 70%;
+  margin-left: 60%;
   max-width: 95px;
   
 }
@@ -301,14 +311,14 @@ main{
 }
 
 .footer {
+  /* border: solid; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 120px;
   bottom: 0%;
   border-top: none;
-  background-color: none;
-  color:#22223B;
   background-color: #DEE2EF;
   font-weight: 400;
   
@@ -316,7 +326,7 @@ main{
 
 .footer_links{
   gap: 10px;
-  padding-top: 2%;
+  padding: 1% 0% 1% 0%;
   display: flex;
   flex-direction: row;
   
@@ -338,7 +348,7 @@ main{
 }
 
 .copyright{
-  padding-top: 1%;
+  /* padding-bottom: 1%; */
   max-width:fit-content;
   /* border: solid; */
 }

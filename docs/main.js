@@ -1,10 +1,5 @@
-// import { Gradient } from "whatamesh";
-// const gradient = new Gradient();
-// gradient.initGradient("#gradient-canvas");
+import Typewriter from 'typewriter-effect/dist/core';
 
-
-// alert("testing script.js")
-//
 const links = document.querySelectorAll(".nav-option");
 
 links.forEach((link) => {
@@ -38,10 +33,7 @@ function loadMusic() {
 //     }
 //   });
 
-anime({
-  targets: '.intro-color-emp',
-  translateX: 250,
-  rotate: '1turn',
-  backgroundColor: '#FFF',
-  duration: 800
+new Typewriter('#typewriter', {
+  strings: ['Hello', 'World'],
+  autoStart: true,
 });
