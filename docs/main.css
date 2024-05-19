@@ -219,16 +219,17 @@ main{
 }
 
 .about-content {
-  /* border: solid; */
+  border: none;
   background-color: #FAF9F9;
   color:#22223b;
-  margin: 20% 21% 20% 21%;
+  margin: 5% 10% 5% 10%;
   min-height: 8in;
 }
 
 #about-me{
   /* border: solid; */
   font-size: 40px;
+  
 }
 
 #about-role{
@@ -241,18 +242,24 @@ main{
   /* border: solid; */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10%;
+
+  
+}
+
+#card-container {
+  border: none;
 }
 
 #about-story{
-  /* border:solid; */
   max-width: 450px;
   font-size: 16px;
   font-weight: 400;
 }
 
 #status_check{
-  /* border: solid; */
+
   font-weight: 400;
 }
 
@@ -264,7 +271,7 @@ main{
 .card-wall{
   display: flex;
   flex-direction: row;
-  /* border:solid; */
+  
 }
 
 .profile-card{
@@ -279,7 +286,7 @@ main{
 
 #pl{
   /* border:solid; */
-  margin-left: 70%;
+  margin-left: 60%;
   max-width: 95px;
   
 }
@@ -304,7 +311,7 @@ main{
 }
 
 .footer {
-  border: solid;
+  /* border: solid; */
   display: flex;
   flex-direction: column;
   align-items: center;
