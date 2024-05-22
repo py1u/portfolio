@@ -120,7 +120,7 @@ header {
 }
 
 .intro {
-  border: solid;
+  border: none;
   font-size: 55px;
   font-weight: 600;
   margin: 10%;
@@ -213,9 +213,13 @@ main{
   list-style: circle;
  }
 .journey{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  gap: 30px;
   border: solid;
-  padding: 0% 0% 15% 0% ;
-  font-size: 25px;
+  padding: 0% 0% 0% 0% ;
+  font-size: 15px;
 }
 
 .about-content {
