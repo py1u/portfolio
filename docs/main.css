@@ -217,7 +217,8 @@ main{
   flex-direction:row;
   justify-content: center;
   gap: 30px;
-  border: solid;
+  border-top: solid;
+  border-bottom: solid;
   padding: 0% 0% 0% 0% ;
   font-size: 15px;
 }
