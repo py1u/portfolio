@@ -1,7 +1,8 @@
 # DAU
-Design @ UCR 
+## Design @ UCR 
 
-Space for website design
+First Deliverable: 4/22/24
+- Demo my website portfolio for design interns and showcase frontend development techniques 
+- built with pure html css js
 
-- Portfolio demo
-
+- Portfolio Demo
